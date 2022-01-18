@@ -25,6 +25,7 @@ spring:
   cloud:
     loadbalancer.ribbon.enabled: false
     gateway:
+        enabled: true    
         discovery:
           locator:
             enabled: true

@@ -9,10 +9,12 @@ metadata:
     io.kompose.service: organizationservice
   name: organizationservice
 spec:
+  type: NodePort
   ports:
   - name: "8081"
     port: 8081
     targetPort: 8081
+    nodePort: 31210
   selector:
     io.kompose.service: organizationservice
 status:

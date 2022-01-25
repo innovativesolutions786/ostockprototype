@@ -38,7 +38,7 @@ spec:
           value: default
         - name: SERVER_PORT
           value: "8072"
-        image: 81XXXXXXXX3.dkr.ecr.us-east-2.amazonaws.com/ostock/gatewayserver:latest
+        image: 332057234349.dkr.ecr.us-east-2.amazonaws.com/ostock/gatewayserver:0.0.12.1-SNAPSHOT
         imagePullPolicy: ""
         name: gateway
         ports:

@@ -36,11 +36,11 @@ spec:
           value: IMSYMMETRIC
         - name: PROFILE
           value: dev
-        image: 81XXXXXXXX3.dkr.ecr.us-east-2.amazonaws.com/ostock/licensing-service:latest
+        image: 332057234349.dkr.ecr.us-east-2.amazonaws.com/ostock/licensing-service:0.0.12.4-SNAPSHOT
         imagePullPolicy: ""
         name: licensing-service
         ports:
-        - containerPort: 8080
+        - containerPort: 8180
         resources: {}
       restartPolicy: Always
       serviceAccountName: ""
